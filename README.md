@@ -5,9 +5,9 @@
 This shows the different songs that Taylor Swift has released during her entire music career.
 #### Playlists and Mood Board
 This has different playlists and mood boards for whatever mood you are feeling.
-##### Explain Song Lyrics and Personal Thoughts
+#### Explain Song Lyrics and Personal Thoughts
 We analyze the different meanings behind her songs' lyrics here, which she might be known for, and share our personal thoughts about them.
-##### About Taylor
+#### About Taylor
 Here, we compile facts about Taylor, such as her journey to stardom or random facts about her.
-##### Fan-made Stuff
+#### Fan-made Stuff
 Lastly, we also have a webpage dedicated to fan-made stuff to support fellow fans and Taylor's music too.
