@@ -3,8 +3,8 @@
 ### Taylor Swift: The Music Industry
 #### Discography
 This shows the different songs that Taylor Swift has released during her entire music career.
-#### Playlists (By Mood) 
-##### Mood Board
+#### Playlists and Mood Board
+This has different playlists and mood boards for whatever mood you are feeling.
 ##### Explain Song Lyrics and Personal Thoughts
 ##### About Taylor
 ##### Fan-made Stuff
