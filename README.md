@@ -1,6 +1,8 @@
 # 1st-Quarter-Project
 ## This is a project proposal for CS3, where we will make a webpage about Taylor Swift. It will include webpages about her music career, such as her discography, playlists by mood, explanation of song lyrics, and fan-made content. It will also have a page on her personal life, which will let your learn more about her.
 ### Taylor Swift: The Music Industry
+#### Discography
+This shows the different songs that Taylor Swift has released during her entire music career.
 #### Playlists (By Mood) 
 ##### Mood Board
 ##### Explain Song Lyrics and Personal Thoughts
