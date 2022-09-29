@@ -1,0 +1,47 @@
+<DOCTYPE html>
+  <html>
+
+  <head>
+    <title>First Quarter Project </title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Franchezca Lara A. Sabino, Emily Ann M. Zabala">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="revised" content="277-09-2022">
+
+    <link rel="icon" href="images/icon.ico" type="image/ico">
+  </head>
+
+  <style>
+    #top {
+      position: sticky;
+      top: 0;
+      background-color: white;
+    }
+  </style>
+
+  <body>
+
+    <h1 id="top"> Playlists and Mood Boards
+      <hr>
+    </h1>
+    <h4>This has different playlists and mood boards for whatever mood you are feeling.</h4>
+
+    <h3> When you're feeling up:</h3><img src="images/playlists/happy taylor.jpg" width="200 px" height="200 px"><br>
+    <a href="url"><h4> happy taylor playlist</h4></a>
+    <a href="url"><h4> happy taylor mood board</h4></a><br>
+
+    <h3> When you're feeling down:</h3><img src="images/playlists/sad taylor.jpg" height="200 px" width="200 px"><br>
+    <a href="url"><h4> sad taylor playlist</h4></a>
+		<a href="url"><h4> sad taylor mood board</h4></a><br>
+
+    <h3> When you're feeling upset:</h3><img src="images/playlists/upset taylor.jpg" height="200 px" width="200 px"><br>
+    <a href="url"><h4> upset taylor playlist</h4></a>
+    <a href="url"><h4> upset taylor mood board</h4></a><br>
+
+
+    <a href="index.html">
+      <h5> Back to Homepage</h5>
+    </a>
+  </body>
+
+  </html>
