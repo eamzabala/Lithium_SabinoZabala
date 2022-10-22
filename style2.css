@@ -10,6 +10,10 @@ body {
 	background-color: #FACDC1;
 }
 
+h1 {
+	font-size: 30;
+}
+
 #circle {
 	height: 250px;
 	width: 250px;
@@ -24,4 +28,8 @@ table h3, table h4, h5, h6 {
 	text-align: center;
 	text-decoration: none;
 	color: #000000;
+}
+
+#navigation {
+	font-size: 13;
 }
