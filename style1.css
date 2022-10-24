@@ -28,6 +28,8 @@ h1 {
 
 h3 {
 	text-decoration: none;
+	font-style: italic;
+	text-align: center;
 	color: #000000;
 	z-index: 3;
 }
