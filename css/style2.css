@@ -1,0 +1,35 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 12;
+	background-color: #FACDC1;
+}
+
+#top {
+	position: sticky;
+	top: 0;
+	background-color: #FACDC1;
+}
+
+h1 {
+	font-size: 30;
+}
+
+#circle {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	display: flex;
+	line-height: 0;
+	position: relative;
+	z-index: 4;
+}
+
+table h4, h5, h6 {
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+}
+
+#navigation {
+	font-size: 13;
+}
