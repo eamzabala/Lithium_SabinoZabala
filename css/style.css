@@ -1,20 +1,24 @@
+/* to set the font type and size, and the background color for the whole webpage*/
 body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 12;
 	background-color: #FACDC1;
 }
 
+/* to format the header so that it stays at the top of the webpage at all times*/
 #top {
-	position: sticky;
+	position: sticky; /* for it to stay even when the user scrolls down */
 	top: 0;
 	background-color: #FACDC1;
-	z-index: 6;
+	z-index: 6; /* for elements to go behind it when a user scrolls down*/
 }
 
+/* for the header to appear larger than the body text*/
 h1 {
 	font-size: 30;
 }
 
+/* to change the images into uniformly-sized circles*/
 #circle {
 	height: 250px;
 	width: 250px;
@@ -22,23 +26,23 @@ h1 {
 	display: flex;
 	line-height: 0;
 	text-align: center;
-	position: absolute;
-	margin-left: 30px;
-	z-index: 5;
+	position: absolute; z-index: 5; /* to maintain position in front of #hover elements*/
+	margin-left: 30px;	
 }
 
+/* to generate circles with texts behind the images for a hover effect*/
 #hover {
 	height: 250px;
 	width: 250px;
 	border-radius: 50%;
 	display: inline-block;
 	line-height: 0;
-	position: relative;
+	position: relative; z-index: 4; /* to maintain position in front of #circle elements*/
 	margin-left: 30px;
-	z-index: 4;
 	background-color: #eaa795;
 }
 
+/* to format the text inside the #hover elements*/
 h3 {
 	position: absolute;
 	bottom: 50%;
@@ -47,6 +51,7 @@ h3 {
 	z-index: 5;
 }
 
+/* to format all body text in the body to align it with the image circles*/
 #text {
 	height: 250px;
 	border-radius: 50%;
@@ -59,16 +64,12 @@ h3 {
 	z-index: 3;
 }
 
+/* so that the #hover elements appear when the user's mouse hovers over the image*/
 #circle:hover {
 	opacity: 0.25;
 }
 
-h3 {
-	width: 250px;
-	text-align: center;
-	z-index: 2;
-}
-
+/* to align the different page descriptions with the image circles*/
 h5 {
 	width: 250px;
 	overflow-wrap: break-word;

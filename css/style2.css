@@ -1,19 +1,23 @@
+/* to set the font type and size, and the background color for the whole webpage*/
 body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 12;
 	background-color: #FACDC1;
 }
 
+/* to format the header so that it stays at the top of the webpage at all times*/
 #top {
 	position: sticky;
 	top: 0;
 	background-color: #FACDC1;
 }
 
+/* for the header to appear larger than the body text*/
 h1 {
 	font-size: 30;
 }
 
+/* to change the images into uniformly-sized circles*/
 #circle {
 	height: 250px;
 	width: 250px;
@@ -24,12 +28,14 @@ h1 {
 	z-index: 4;
 }
 
+/* to align all of the body text, which is placed in table cells*/
 table h4, h5, h6 {
 	text-align: center;
 	text-decoration: none;
 	color: #000000;
 }
 
+/* to adjust the font size of the navigation bar*/
 #navigation {
 	font-size: 13;
 }
