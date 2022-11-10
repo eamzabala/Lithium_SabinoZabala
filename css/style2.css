@@ -50,3 +50,8 @@ table h4, h5, h6 {
 #navigation {
 	font-size: 13;
 }
+
+/* for an underline to appear when the album titles are hovered over*/
+h3:hover, #navigation:hover {
+	text-decoration: underline;
+}

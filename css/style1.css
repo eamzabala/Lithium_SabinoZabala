@@ -42,7 +42,6 @@ h1 {
 
 /* to format the album titles and align it with the image circles*/
 #content h3 {
-	text-decoration: none;
 	font-style: italic;
 	text-align: center;
 	color: #000000;
@@ -69,4 +68,15 @@ td {
 /* to format the hr line for the footer so that it won't overlap on anything*/
 #line {
 	margin-top: 100px;
+}
+
+/*to format the header/navigation bar for the texts to appear in one line*/
+h2, #navigation, #divider {
+	display: inline;
+	vertical-align: center;
+}
+
+/* for an underline to appear when the album titles are hovered over*/
+h3:hover, #navigation:hover {
+	text-decoration: underline;
 }
