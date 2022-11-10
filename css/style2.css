@@ -51,6 +51,12 @@ table h4, h5, h6 {
 	font-size: 13;
 }
 
+/*to format the header/navigation bar for the texts to appear in one line*/
+h2, #navigation, #divider {
+	display: inline;
+	vertical-align: center;
+}
+
 /* for an underline to appear when the album titles are hovered over*/
 h3:hover, #navigation:hover {
 	text-decoration: underline;
