@@ -1,0 +1,70 @@
+/* to set the font type and size, and the background color for the whole webpage*/
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 12;
+	background-color: #FACDC1;
+}
+
+/* to format the header so that it stays at the top of the webpage at all times*/
+#top {
+	position: sticky;
+	top: 0;
+	background-color: #FACDC1;
+  z-index: 6;
+  text-decoration: none
+}
+
+/* to format the links so that they look the same whether they were already visited or not*/
+a, a:visited {
+  color:#000000;
+  text-decoration: none;
+}
+a:hover, a:active, a:focus {
+  color: #000000;
+}
+
+/* for the header to appear larger than the body text*/
+h1 {
+	font-size: 30;
+}
+
+/* to change the images into uniformly-sized circles*/
+#circle {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	display: flex;
+	line-height: 0;
+	position: relative;
+	z-index: 4;
+}
+
+/* to align all of the body text, which is placed in table cells*/
+table h4, h5, h6 {
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+}
+
+/* to adjust the font size of the navigation bar*/
+#navigation {
+	font-size: 13;
+}
+
+/*to format the header/navigation bar for the texts to appear in one line*/
+h2, #navigation, #divider {
+	display: inline;
+	vertical-align: center;
+}
+
+/* for an underline to appear when the album titles are hovered over*/
+h3:hover, #navigation:hover {
+	text-decoration: underline;
+}
+section p {
+  float: left;
+  clear: left;
+}
+aside {
+  float: right;
+}
