@@ -71,12 +71,102 @@ td {
 }
 
 /*to format the header/navigation bar for the texts to appear in one line*/
-h2, #navigation, #divider {
+h2, nav {
 	display: inline;
 	vertical-align: center;
+	text-decoration: none;
 }
 
-/* for an underline to appear when the album titles are hovered over*/
-h3:hover, #navigation:hover {
-	text-decoration: underline;
+/*taylor nation socmeds*/
+#instagram {
+	background: url('/images/icon.png') no-repeat -152px -16px;
+	width: 56px;
+	height: 56px;
+	position: relative;
+	display: inline-block;
+}
+
+#twitter {
+	background: url('/images/icon.png') no-repeat -16px -88px;
+	width: 56px;
+	height: 51px;
+	position: relative;
+	display: inline-block;
+}
+
+#tiktok {
+	background: url('/images/icon.png') no-repeat -88px -88px;
+	width: 56px;
+	height: 51px;
+	position: relative;
+	display: inline-block;
+}
+/*ts socmed image sprites*/
+#tsfb {
+  background: url('/images/icon.png') no-repeat -16px -16px;
+	width: 56px;
+	height: 56px;
+  position: relative;
+  display: inline-block;
+}
+#tsfb:hover {
+  background: url('/images/icon.png') no-repeat -352px -16px;
+	width: 56px;
+	height: 56px;
+}
+
+#tstwt {
+  background: url('/images/icon.png') no-repeat -16px -88px;
+	width: 56px;
+	height: 56px;
+  position: relative;
+  display: inline-block;
+}
+#tstwt:hover {
+  background: url('/images/icon.png') no-repeat -357px -88px;
+	width: 56px;
+	height: 56px;
+}
+
+#tsinsta {
+  background: url('/images/icon.png') no-repeat -152px -16px;
+	width: 56px;
+	height: 56px;
+  position: relative;
+  display: inline-block;
+}
+#tsinsta:hover {
+  background: url('/images/icon.png') no-repeat -488px -16px;
+	width: 56px;
+	height: 56px;
+}
+
+#tsspotify {
+  background: url('/images/icon.png') no-repeat -152px -288px;
+	width: 56px;
+	height: 56px;
+  position: relative;
+  display: inline-block;
+}
+#tsspotify:hover {
+  background: url('/images/icon.png') no-repeat -488px -288px;
+	width: 56px;
+	height: 56px;
+}
+
+#tsyt {
+  background: url('/images/icon.png') no-repeat -88px -16px;
+	width: 56px;
+	height: 56px;
+  position: relative;
+  display: inline-block;
+}
+#tsyt:hover {
+  background: url('/images/icon.png') no-repeat -424px -16px;
+	width: 56px;
+	height: 56px;
+}
+
+footer h5 {
+  text-align: left;
 }
